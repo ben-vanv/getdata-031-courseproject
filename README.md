@@ -1,6 +1,6 @@
 # getdata-031-courseproject
 Course Project for Getting and Cleansing Data
-* * *
+
 * [Task and Overview](#overview)
 * [Approach](#approach)
 * * *
@@ -18,10 +18,10 @@ The data set includes ths following content:
 >- An identifier of the subject who carried out the experiment.
 
 The task for the course project includes the following:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+1. Merges the training and the test sets to create one data set
+2. Extracts only the measurements on the mean and standard deviation for each measurement
 3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names. 
+4. Appropriately labels the data set with descriptive variable names
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The processing logic related to the above is encapsulated in one R script called run_analysis.R
@@ -32,7 +32,6 @@ Outputs from the processing logic meet the tidy data requirements:
 3. Each type of observational unit forms a table.
 
 <h1 id="approach">Approach</h1>
-
 Summary of Processing Approach and Logic: run_analysis.R 
 1. If not already downloaded, get UCI HAR and unzip data file using default directory structure
 2. Read in activity labels (activity_labels.txt) and features (features.txt), capture the column references for activities that relate to means or standard deviations
@@ -45,7 +44,7 @@ Summary of Processing Approach and Logic: run_analysis.R
 		* Fix descriptions by putting in title case
 		* Remove underscores
 4. Read in the activity feature data, state and subject data from the test data files into memory
-5.	Bind the corresponding training data file content into memory
+5. Bind the corresponding training data file content into memory
 6. Update column names in the dataset using the activity labels produced in step 2
 7. Bind subject, activity and state column data into the same data sets
 8. Update column references to activity IDs with the corresponding human readable text
