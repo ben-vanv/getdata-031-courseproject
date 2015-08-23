@@ -33,6 +33,12 @@ Derivation for underlying HAR activity values are as per the readme contained wi
 
 # Summary variables in the Tidy Data file #
 <table>
+<tr>
+        <th>Column Number</th>
+        <th>Column Description</th>
+		<th>Unit of Measure</th>
+        <th>Detail</th>
+    </tr>
  <tr>
      <td align=right valign=top> 3                               </td>                          
      <td valign=top>      AverageTimeBodyAccMean.X </td>                   
