@@ -3,7 +3,6 @@ Course Project for Getting and Cleansing Data
 
 * [Task and Overview](#overview)
 * [Approach](#approach)
-* * *
 
 <h1 id="overview">Task and Overview</h1>
 The UCI Human Activity Recognition Using Smartphones Data Set includes the data ouputs of recordings of 30 subjects performing activities of daily living whilst carrying a waist-mounted smartphone with embedded inertial sensor 
@@ -27,9 +26,9 @@ The task for the course project includes the following:
 The processing logic related to the above is encapsulated in one R script called run_analysis.R
 
 Outputs from the processing logic meet the tidy data requirements:
-1. Each variable forms a column,
-2. Each observation forms a row, and;
-3. Each type of observational unit forms a table.
+> Each variable forms a column,
+> Each observation forms a row, and;
+> Each type of observational unit forms a table.
 
 <h1 id="approach">Approach</h1>
 Summary of Processing Approach and Logic: run_analysis.R 
